@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="WordPuzzel.GameBoard">
+    <ContentPage.Content>
+        <Grid>
+            <Grid.RowDefinitions>
+                <RowDefinition Height="*"/>
+                <RowDefinition Height="40"/>
+            </Grid.RowDefinitions>
+            <Grid Margin="10" x:Name="canvas" ></Grid>
+            <StackLayout Grid.Row="1" Orientation="Horizontal" Margin="10" x:Name="dataToSearchView"></StackLayout>
+        </Grid>
+
+        
+    </ContentPage.Content>
+</ContentPage>

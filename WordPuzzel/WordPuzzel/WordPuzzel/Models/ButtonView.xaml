@@ -1,0 +1,19 @@
+﻿<ContentView x:Class="WordPuzzel.Models.ButtonView"
+             xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+           >
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="10*" />
+            <ColumnDefinition Width="80*" />
+            <ColumnDefinition  Width="10*" />
+        </Grid.ColumnDefinitions>
+        <Grid.RowDefinitions>
+            <RowDefinition Height="10*"/>
+            <RowDefinition Height="80*" />
+            <RowDefinition Height="10*" />
+        </Grid.RowDefinitions>
+        <Button x:Name="main"  Grid.Row="1" Grid.Column="1"  BorderColor="{Binding BorderColor}" BorderWidth="{Binding BorderSize}"  TextColor="White" >
+        </Button>
+    </Grid>
+</ContentView>
